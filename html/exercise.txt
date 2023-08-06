@@ -1,0 +1,18 @@
+1) create web page for IPL points table using table tag. 
+2) create a resume using html tags only 
+like below 
+https://resumekraft.com/wp-content/uploads/2022/02/Web-Developer-Resume.jpg
+
+
+form 
+-------------------------------------------
+1) create change password web page. 
+2) create forgot password web page
+
+3) create a website which has at least 30 pages. this website is about gujarati food receipe in gujarati language. 
+-----------------------------------------------------------------
+this website has 3 different  types of page 
+
+Home 
+Category (at least category)
+Receipe  30 receipt at least 
