@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="success.html" method="get">
+        <table border="2" align="center" cellpadding="10" width="50%">
+            <tr>
+                <td colspan="2" align="center">
+                    <h3>Search Bus</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>Enter source</td>
+                <td>
+                    <input type="text" name="source" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Enter destination</td>
+                <td>
+                    <input type="text" name="destination" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Select bus type</td>
+                <td>
+                    <label for="Gujarnagari">
+                        <input required id="Gujarnagari" type="radio" name="bustype" value="1" /> Gujarnagari
+                    </label>
+                    <label for="Express">
+                        <input required id="Express" type="radio" name="bustype" value="2" /> Express
+                    </label>
+                    <label for="AC">
+                        <input required id="AC" type="radio" name="bustype" value="3" /> AC
+                    </label>
+                    <label for="sleeper">
+                        <input required id="sleeper" type="radio" name="bustype" value="4" /> sleeper
+                    </label>
+                    <label for="ACsleeper">
+                        <input required id="ACsleeper" type="radio" name="bustype" value="5" /> AC sleeper
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="search" name="submit" />
+                    <input type="reset" value="clear all" name="reset" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

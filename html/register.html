@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="success.html" method="post" enctype="multipart/form-data">
+        <table border="2" align="center" cellpadding="10" cellspacing="5" width="50%">
+            <tr>
+                <td align="center"><h3>Register with  us</h3></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="username" required placeholder="username">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="password" name="password" placeholder="password" required />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Select birth date <br/>
+                    <input type="date" name="dob" required />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Select Gender <br/>
+                    <label for="male">
+                        <input type="radio" name="gender" value='1' id="male" required> Male
+                    </label>
+                    <label for="female">
+                        <input type="radio" name="gender" value='0' id="female" required> Female
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="country" required>
+                        <option value="">select country</option>
+                        <option value="1">India</option>
+                        <option value="2">Nepal</option>
+                        <option value="3">Sri lanka</option>
+                        <option value="4">japan</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>address</b> <br/>
+                    <textarea name="address" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="number" name="pincode" required placeholder="your pincode"></td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Select photo</b> <br/>
+                    <input type="file" name="photo" required accept="image/*" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="reading">
+                        <input id="reading" type="checkbox" name="reading" value="1" /> Reading
+                    </label>
+                    <label for="coding">
+                        <input id="coding" type="checkbox" name="coding" value="2" /> Coding
+                    </label>
+                    <label for="surfing">
+                        <input id="surfing" type="checkbox" name="surfing" value="2" /> surfing 
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="language" required multiple>
+                        <option value="">select language</option>
+                        <option value="1">Hindi</option>
+                        <option value="2">Gujarati</option>
+                        <option value="3">English</option>
+                        <option value="4">Sanskrit</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="submit form" name="submit" />
+                    <input type="reset" value="clear all" name="reset" />
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
